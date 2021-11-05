@@ -108,6 +108,9 @@ nav,
 section {
 	display: block
 }
+a {
+  text-decoration: none;
+}
 
 nav ol,
 nav ul {
@@ -1292,9 +1295,8 @@ a:hover {
 	display: inline-block;
 	width: calc(25% - 50px);
 	margin: 0 20px 40px;
-	background-color: #fff;
-	-webkit-box-shadow: 2px 2px 4px -2px #111;
-	box-shadow: 2px 2px 4px -2px #111;
+	background-color:none;
+
 	vertical-align: top
 }
 
