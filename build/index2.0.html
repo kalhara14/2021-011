@@ -15,23 +15,38 @@
       <link rel="stylesheet" href="static/css/screen.min.css">
       <link rel="stylesheet" href="static/css/custom.min.css">
       <script src="static/js/head.min.js"></script>
+      <style>
+        .team_doc {
+          margin-left:13%;
+          width: 75%;
+        }
+        .team_doc_font {
+          font-size: 110%;
+        }
+      </style>
    </head>
    <body>
       <!-- Header-->
       <header class="main-header">
+         <div class="first-nav">
+            <div class="container">
+               <a class="first-nav__navcontrol icon icon_menu js-navcontrol" href="#" style="float:right; margin-right:10%;">Menu</a>
+            </div>
+         </div>
          <div class="second-nav js-nav">
             <div class="container">
-               <a class="second-nav__logo"><span>MA</span></a>
+               <a class="second-nav__logo"><span> </span></a>
                <nav class="menu">
                   <ul>
                      <li><a class="js-link js-anchor is-selected" href="#home">Home</a></li>
                      <li><a class="js-link js-anchor" href="#about">About</a></li>
+                     <li><a class="js-link js-anchor" href="#research">Research</a></li>
                      <li><a class="js-link js-anchor" href="#services">Services</a></li>
-                     <li><a class="js-link js-anchor" href="#process">Process</a></li>
-                     <li><a class="js-link js-anchor" href="#projects">Project Documentation</a></li>
-                     <li><a class="js-link js-anchor" href="#technologies">Technologies</a></li>
+                     <li><a class="js-link js-anchor" href="#documents">Documents</a></li>
+                     <li><a class="js-link js-anchor" href="#presentations">Presentations</a></li>
                      <li><a class="js-link js-anchor" href="#team">Our Team</a></li>
-                     <li><a class="js-link js-anchor" href="#contacts">Contact Us</a></li>
+                     <li><a class="js-link js-anchor" href="#technologies">Technologies</a></li>
+                     <li><a class="js-link js-anchor" href="#contacts">Contacts</a></li>
                   </ul>
                </nav>
             </div>
@@ -65,6 +80,47 @@
                   </blockquote>
                   <p>Nunc non venenatis odio. Nullam id neque et lectus suscipit mattis ac a ante. Suspendisse potenti. Aliquam in nulla sem. Vivamus sodales malesuada leo, sit amet cursus nunc vulputate aliquet. Proin porttitor ex facilisis aliquam efficitur. Vestibulum scelerisque nisl ac ex rutrum, quis aliquet nibh ultrices.</p>
                </div>
+            </div>
+         </div>
+      </section>
+     <!-- Research section-->
+      <section class="common-section" id="research">
+         <div class="container">
+            <header class="common-section__header">
+               <h2>The Research</h2>
+               <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam interdum tortor</h4>
+            </header>
+            <div class="grid-container">
+               <ul class="process">
+                  <li class="process__step process__step_research">
+                     <div class="process__step-icon icon icon_research is-active"></div>
+                  </li>
+                  <li class="process__step-info process__step-info_research is-active">
+                     <h3><span>Component 1</span> &mdash; Security Policy</h3>
+                     <p>Proin mattis ex vel turpis interdum, in fringilla nibh tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id ipsum in diam aliquam sodales.</p>
+                  </li>
+                  <li class="process__step process__step_develop">
+                     <div class="process__step-icon icon icon_develop"></div>
+                  </li>
+                  <li class="process__step-info process__step-info_develop">
+                     <h3><span>Component 2</span> &mdash; Security Configurations & Update Management</h3>
+                     <p>Nullam laoreet lacus et ante consequat pharetra. Nam non felis tincidunt, auctor eros at, semper eros. Mauris feugiat a nibh et luctus.</p>
+                  </li>
+                  <li class="process__step process__step_deploy">
+                     <div class="process__step-icon icon icon_deploy"></div>
+                  </li>
+                  <li class="process__step-info process__step-info_deploy">
+                     <h3><span>Component 3</span> &mdash; Intrusion Detection</h3>
+                     <p>Donec lobortis, est iaculis rutrum feugiat, orci est ultrices mauris, in rhoncus dolor eros non sem. Duis feugiat, metus eu ullamcorper accumsan, massa risus dictum nisi, sit amet ultricies lectus nisl eu libero.</p>
+                  </li>
+                  <li class="process__step process__step_deliver">
+                     <div class="process__step-icon icon icon_deliver"></div>
+                  </li>
+                  <li class="process__step-info process__step-info_deliver">
+                     <h3><span>Component 4</span> &mdash; AAA</h3>
+                     <p>Donec non ligula imperdiet, tincidunt quam ut, pellentesque nisi. Quisque est ante, faucibus a urna nec, vehicula pellentesque lectus.</p>
+                  </li>
+               </ul>
             </div>
          </div>
       </section>
@@ -114,144 +170,222 @@
             </div>
          </div>
       </section>
-      <!-- Process section-->
-      <section class="common-section" id="process">
+
+      <!-- Documents section-->
+      <section class="common-section" id="documents">
          <div class="container">
             <header class="common-section__header">
-               <h2>How It Works</h2>
-               <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam interdum tortor</h4>
+               <h2>Documents</h2>
+               <p>This section provides the all documents we have produced during our research</p>
             </header>
-            <div class="grid-container">
-               <ul class="process">
-                  <li class="process__step process__step_research">
-                     <div class="process__step-icon icon icon_research is-active"></div>
-                  </li>
-                  <li class="process__step-info process__step-info_research is-active">
-                     <h3><span>Step 1</span> &mdash; Quisque a quam ante</h3>
-                     <p>Proin mattis ex vel turpis interdum, in fringilla nibh tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id ipsum in diam aliquam sodales.</p>
-                  </li>
-                  <li class="process__step process__step_develop">
-                     <div class="process__step-icon icon icon_develop"></div>
-                  </li>
-                  <li class="process__step-info process__step-info_develop">
-                     <h3><span>Step 2</span> &mdash; Aliquam erat volutpat</h3>
-                     <p>Nullam laoreet lacus et ante consequat pharetra. Nam non felis tincidunt, auctor eros at, semper eros. Mauris feugiat a nibh et luctus.</p>
-                  </li>
-                  <li class="process__step process__step_deploy">
-                     <div class="process__step-icon icon icon_deploy"></div>
-                  </li>
-                  <li class="process__step-info process__step-info_deploy">
-                     <h3><span>Step 3</span> &mdash; Curabitur accumsan nulla</h3>
-                     <p>Donec lobortis, est iaculis rutrum feugiat, orci est ultrices mauris, in rhoncus dolor eros non sem. Duis feugiat, metus eu ullamcorper accumsan, massa risus dictum nisi, sit amet ultricies lectus nisl eu libero.</p>
-                  </li>
-                  <li class="process__step process__step_deliver">
-                     <div class="process__step-icon icon icon_deliver"></div>
-                  </li>
-                  <li class="process__step-info process__step-info_deliver">
-                     <h3><span>Step 4</span> &mdash; Fusce aliquam lorem</h3>
-                     <p>Donec non ligula imperdiet, tincidunt quam ut, pellentesque nisi. Quisque est ante, faucibus a urna nec, vehicula pellentesque lectus.</p>
-                  </li>
-               </ul>
-            </div>
-         </div>
-      </section>
-      <!-- Projects section-->
-      <section class="common-section" id="projects">
-         <header class="common-section__header">
-            <h2>Projects</h2>
-            <p>Donec lorem ante, efficitur ut blandit eu, sollicitudin sed mi</p>
-         </header>
-         <div class="projects-wrap">
-            <div class="grid-container">
-               <div class="projects">
-                  <figure class="projects__item">
-                     <img src="static/images/projects/1.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit">
-                     <figcaption><a class="icon icon_link" href="#" rel="nofollow">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></figcaption>
-                  </figure>
-                  <figure class="projects__item">
-                     <img src="static/images/projects/2.jpg" alt="Donec lobortis, est iaculis rutrum feugiat">
-                     <figcaption><a class="icon icon_link" href="#" rel="nofollow">Donec lobortis, est iaculis rutrum feugiat</a></figcaption>
-                  </figure>
-                  <figure class="projects__item">
-                     <img src="static/images/projects/5.jpg" alt="Duis feugiat, metus eu ullamcorper accumsan, massa risus dictum nisi">
-                     <figcaption><a class="icon icon_link" href="#" rel="nofollow">Duis feugiat, metus eu ullamcorper accumsan, massa risus dictum nisi</a></figcaption>
-                  </figure>
-                  <figure class="projects__item">
-                     <img src="static/images/projects/6.jpg" alt="Donec non ligula imperdiet, tincidunt quam ut, pellentesque nisi">
-                     <figcaption><a class="icon icon_link" href="#" rel="nofollow">Donec non ligula imperdiet, tincidunt quam ut, pellentesque nisi</a></figcaption>
-                  </figure>
-                  <figure class="projects__item">
-                     <img src="static/images/projects/3.jpg" alt="Mauris a sem semper, maximus metus vitae, efficitur turpis">
-                     <figcaption><a class="icon icon_link" href="#" rel="nofollow">Mauris a sem semper, maximus metus vitae, efficitur turpis</a></figcaption>
-                  </figure>
-                  <figure class="projects__item">
-                     <img src="static/images/projects/4.jpg" alt="Nunc sit amet massa id sem pretium luctus">
-                     <figcaption><a class="icon icon_link" href="#" rel="nofollow">Nunc sit amet massa id sem pretium luctus</a></figcaption>
-                  </figure>
-                  <figure class="projects__item">
-                     <img src="static/images/projects/7.jpg" alt="Nunc elementum arcu sit amet erat sodales fringilla">
-                     <figcaption><a class="icon icon_link" href="#" rel="nofollow">Nunc elementum arcu sit amet erat sodales fringilla</a></figcaption>
-                  </figure>
-                  <figure class="projects__item">
-                     <img src="static/images/projects/8.jpg" alt="Cras condimentum venenatis aliquet">
-                     <figcaption><a class="icon icon_link" href="#" rel="nofollow">Cras condimentum venenatis aliquet</a></figcaption>
-                  </figure>
+           <div class="grid-container">
+              <header class="common-section__header">
+                <h3>Project Charter</h3>
+              </header>
+               <div class="team team_doc" style="text-align:center; margin-left:20%; width: 60%;">
+               <div class="team__member">
+                 <a href="static/docs/2021_011_group_charter.pdf" target="_blank">
+                  <img src="static/images/logos/pdf_icon.png" alt="ppt logo" href="static/docs/2021_011_group_charter.pdf">
+                  <div class="team__member-info">
+                     <h3 class="team__member-name team_doc_font" style="font-size: 90%;">Group Charter</h3>
+                  </div>
+                 </a>
                </div>
+              </div>
+            </div>
+           <div class="grid-container">
+              <header class="common-section__header">
+                <h3>Project Proposal Documents</h3>
+              </header>
+              <div class="team team_doc" style="text-align:center; margin-left:20%; width: 60%;">
+               <div class="team__member">
+                 <a href="static/docs/IT18139440_Project_Proposal.pdf" target="_blank">
+                  <img src="static/images/logos/pdf_icon.png" alt="ppt logo">
+                  <div class="team__member-info">
+                     <h3 class="team__member-name team_doc_font" style="font-size: 90%; text-align:center;">H.H.D.Kalhara</h3>
+                  </div>
+                 </a>
+               </div>
+               <div class="team__member">
+                 <a href="static/docs/IT18136098_Project_Proposal.pdf" target="_blank">
+                  <img src="static/images/logos/pdf_icon.png" alt="ppt logo">
+                  <div class="team__member-info">
+                     <h3 class="team__member-name team_doc_font" style="font-size: 90%; text-align:center;">P.A.U.T. De Alwis</h3>
+                  </div>
+                 </a>
+               </div>
+               <div class="team__member">
+                 <a href="static/docs/IT18132410_Project_Proposal.pdf" target="_blank">
+                  <img src="static/images/logos/pdf_icon.png" alt="ppt logo">
+                  <div class="team__member-info">
+                     <h3 class="team__member-name team_doc_font" style="font-size: 90%; text-align:center;">A.D.H. Jinadasa</h3>
+                  </div>
+                 </a>
+               </div>
+               <div class="team__member">
+                 <a href="static/docs/IT18133578_Project_Proposal.pdf" target="_blank">
+                  <img src="static/images/logos/pdf_icon.png" alt="ppt logo">
+                  <div class="team__member-info">
+                     <h3 class="team__member-name team_doc_font" style="font-size: 90%; text-align:center;">R.P.R.D. Randunu</h3>
+                  </div>
+                 </a>
+               </div>
+             </div>
+            </div>
+           <div class="grid-container">
+              <header class="common-section__header">
+                <h3>Status Documents</h3>
+              </header>
+               <div class="team team_doc" style="text-align:center; margin-left:20%; width: 60%;">
+               <div class="team__member">
+                 <a href="static/docs/Status_Document_1.pdf" target="_blank">
+                  <img src="static/images/logos/pdf_icon.png" alt="ppt logo">
+                  <div class="team__member-info">
+                     <h3 class="team__member-name team_doc_font" style="font-size: 90%; text-align:center;">Status Document I</h3>
+                  </div>
+                 </a>
+               </div>
+               <div class="team__member">
+                 <a href="#" target="_blank">
+                  <img src="static/images/logos/pdf_icon.png" alt="ppt logo">
+                  <div class="team__member-info">
+                     <h3 class="team__member-name team_doc_font" style="font-size: 90%; text-align:center;">Status Document II (Pending)</h3>
+                  </div>
+                 </a>
+               </div>
+              </div>
+            </div>
+           <div class="grid-container">
+              <header class="common-section__header">
+                <h3>Research Paper & Poster</h3>
+              </header>
+               <div class="team team_doc" style="text-align:center; margin-left:20%; width: 60%;">
+               <div class="team__member">
+                 <a href="static/docs/2021-011_research_paper.pdf" target="_blank">
+                  <img src="static/images/logos/pdf_icon.png" alt="ppt logo">
+                  <div class="team__member-info">
+                     <h3 class="team__member-name team_doc_font" style="font-size: 90%; text-align:center;">Research Paper</h3>
+                  </div>
+                 </a>
+               </div>
+               <div class="team__member">
+                 <a href="#" target="_blank">
+                  <img src="static/images/logos/pdf_icon.png" alt="ppt logo">
+                  <div class="team__member-info">
+                     <h3 class="team__member-name team_doc_font" style="font-size: 90%; text-align:center;">Research Poster (pending)</h3>
+                  </div>
+                 </a>
+               </div>
+              </div>
+            </div>
+           <div class="grid-container">
+              <header class="common-section__header">
+                <h3>Research Log Book</h3>
+              </header>
+               <div class="team team_doc" style="text-align:center; margin-left:20%; width: 60%;">
+               <div class="team__member">
+                 <a href="#" target="_blank">
+                  <img src="static/images/logos/pdf_icon.png" alt="ppt logo">
+                  <div class="team__member-info">
+                     <h3 class="team__member-name team_doc_font" style="font-size: 90%; text-align:center;">Research Log Book (Pending)</h3>
+                  </div>
+                 </a>
+               </div>
+              </div>
+            </div>
+            <div class="grid-container">
+              <header class="common-section__header">
+                <h3>Final Documents</h3>
+              </header>
+               <div class="team team_doc" style="text-align:center; margin-left:20%; width: 60%;">
+               <div class="team__member">
+                 <a href="static/docs/IT18139440_Final_Project_Thesis.pdf" target="_blank">
+                  <img src="static/images/logos/pdf_icon.png" alt="ppt logo">
+                  <div class="team__member-info">
+                     <h3 class="team__member-name team_doc_font" style="font-size: 90%; text-align:center;">H.H.D. Kalhara<br>Thesis</h3>
+                  </div>
+                 </a>
+               </div>
+               <div class="team__member">
+                 <a href="static/docs/IT18136098_Final_Project_Thesis.pdf" target="_blank">
+                  <img src="static/images/logos/pdf_icon.png" alt="ppt logo">
+                  <div class="team__member-info">
+                     <h3 class="team__member-name team_doc_font" style="font-size: 90%; text-align:center;">P.A.U.T. De Alwis<br>Thesis</h3>
+                  </div>
+                 </a>
+               </div>
+               <div class="team__member">
+                 <a href="static/docs/IT18132410_Final_Project_Thesis.pdf" target="_blank">
+                  <img src="static/images/logos/pdf_icon.png" alt="ppt logo">
+                  <div class="team__member-info">
+                     <h3 class="team__member-name team_doc_font" style="font-size: 90%; text-align:center;">A.D.H. Jinadasa<br>Thesis</h3>
+                  </div>
+                 </a>
+               </div>
+               <div class="team__member">
+                 <a href="static/docs/IT18133578_Final_Project_Thesis.pdf" target="_blank">
+                  <img src="static/images/logos/pdf_icon.png" alt="ppt logo">
+                  <div class="team__member-info">
+                     <h3 class="team__member-name team_doc_font" style="font-size: 90%; text-align:center;">R.P.R.D. Randunu<br>Thesis</h3>
+                  </div>
+                 </a>
+               </div>
+               <div style="text-align:center;">
+                 <div class="team__member">
+                   <a href="static/docs/2021_11_Final_project_Group_Report.pdf" target="_blank">
+                    <img src="static/images/logos/pdf_icon.png" alt="ppt logo">
+                    <div class="team__member-info">
+                       <h3 class="team__member-name team_doc_font" style="font-size: 90%; text-align:center;">Group Thesis</h3>
+                    </div>
+                   </a>
+                 </div>
+               </div>
+              </div>
             </div>
          </div>
       </section>
-      <!-- Testimonials section-->
-      <section class="common-section" id="testimonials">
+     <!-- Presentations section-->
+      <section class="common-section" id="presentations">
          <div class="container">
             <header class="common-section__header">
-               <h2>Testimonials</h2>
-               <p>Aenean sagittis, turpis ac fermentum elementum, lorem urna lobortis eros, nec ultrices sem tortor sit amet elit</p>
+               <h2>Presentations</h2>
+               <p>This section provides the slides we have been used in the past presentations</p>
             </header>
             <div class="grid-container">
-               <ul class="testimonials">
-                  <li class="testimonials__item">
-                     <img src="static/images/logos/1.png" alt="Lorem ipsum dolor sit amet">
-                     <blockquote>
-                        <p class="icon icon_ql">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer blandit orci est, id ultrices neque pretium quis. Quisque ut tortor eros. Curabitur id pellentesque dolor. Vivamus eu ullamcorper dolor, sit amet fringilla justo. Sed id eros interdum, ullamcorper diam ut, maximus lectus. Donec dapibus libero a euismod rutrum. Praesent at est ipsum.</p>
-                        <cite><span class="name">Giles Posture,</span><span class="role"> CompanyName</span></cite>
-                     </blockquote>
-                  </li>
-                  <li class="testimonials__item">
-                     <img src="static/images/logos/2.png" alt="Lorem ipsum dolor sit amet">
-                     <blockquote>
-                        <p class="icon icon_ql">In imperdiet odio metus, at ultricies tellus posuere at. Sed tempor ipsum a rhoncus tempor. Praesent orci massa, congue ut sapien ac, commodo lobortis massa. Nam ultricies hendrerit arcu, quis lacinia metus dictum eget. Praesent eu nisi sapien. Proin posuere nec lacus vitae vehicula. Curabitur accumsan nulla ut velit facilisis, eu ultricies ligula tristique</p>
-                        <cite><span class="name">Sue Shei,</span><span class="role"> CompanyName</span></cite>
-                     </blockquote>
-                  </li>
-                  <li class="testimonials__item">
-                     <img src="static/images/logos/3.png" alt="Lorem ipsum dolor sit amet">
-                     <blockquote>
-                        <p class="icon icon_ql">In imperdiet odio metus, at ultricies tellus posuere at.</p>
-                        <cite><span class="name">Desmond Eagle,</span><span class="role"> CompanyName</span></cite>
-                     </blockquote>
-                  </li>
-                  <li class="testimonials__item">
-                     <img src="static/images/logos/4.png" alt="Lorem ipsum dolor sit amet">
-                     <blockquote>
-                        <p class="icon icon_ql">Fusce aliquam lorem in ligula maximus, et fermentum velit ultricies. Sed quis pretium metus. Donec convallis pretium erat in varius. Sed ullamcorper, lacus vel euismod euismod, justo nibh tristique urna, ac sollicitudin nunc elit eget sem.</p>
-                        <cite><span class="name">Benjamin Evalent,</span><span class="role"> CompanyName</span></cite>
-                     </blockquote>
-                  </li>
-                  <li class="testimonials__item">
-                     <img src="static/images/logos/5.png" alt="Lorem ipsum dolor sit amet">
-                     <blockquote>
-                        <p class="icon icon_ql">Nam vehicula ex vel justo suscipit feugiat. Praesent libero augue, consequat in blandit vel, blandit ac tortor. Sed quis pellentesque augue. Sed suscipit erat justo, quis maximus augue porttitor ut. Aliquam erat volutpat. Ut in leo risus. Nam pulvinar felis sit amet mi blandit, nec euismod augue tristique. Nulla at vestibulum massa.</p>
-                        <cite><span class="name">Jake Weary,</span><span class="role"> CompanyName</span></cite>
-                     </blockquote>
-                  </li>
-                  <li class="testimonials__item">
-                     <img src="static/images/logos/6.png" alt="Lorem ipsum dolor sit amet">
-                     <blockquote>
-                        <p class="icon icon_ql">In imperdiet odio metus, at ultricies tellus posuere at. Sed tempor ipsum a rhoncus tempor. Praesent orci massa, congue ut sapien ac, commodo lobortis massa. Nam ultricies hendrerit arcu, quis lacinia metus dictum eget. Praesent eu nisi sapien. Proin posuere nec lacus vitae vehicula. Curabitur accumsan nulla ut velit facilisis, eu ultricies ligula tristique</p>
-                        <cite><span class="name">Alan Fresco,</span><span class="role"> CompanyName</span></cite>
-                     </blockquote>
-                  </li>
-               </ul>
+              <div class="team team_doc" style="text-align:center; margin-left:20%; width: 60%;">
+               <div class="team__member">
+                 <a href="static/docs/2021-011_project_proposal_presentation.pdf" target="_blank">
+                  <img src="static/images/logos/ppt_logo.png" alt="ppt logo">
+                  <div class="team__member-info">
+                     <h3 class="team__member-name team_doc_font" style="font-size: 90%; text-align:center;">Proposal Presentation</h3>
+                  </div>
+                 </a>
+               </div>
+               <div class="team__member">
+                 <a href="static/docs/2021-011_PP1_presentation.pdf" target="_blank">
+                  <img src="static/images/logos/ppt_logo.png" alt="ppt logo">
+                  <div class="team__member-info">
+                     <h3 class="team__member-name team_doc_font" style="font-size: 90%; text-align:center;">Progress Presentation I</h3>
+                  </div>
+                 </a>
+               </div>
+               <div class="team__member">
+                 <a href="static/docs/2021-011_PP2_presentation.pdf" target="_blank">
+                  <img src="static/images/logos/ppt_logo.png" alt="ppt logo">
+                  <div class="team__member-info">
+                     <h3 class="team__member-name team_doc_font" style="font-size: 90%; text-align:center;">Progress Presentation II</h3>
+                  </div>
+                 </a>
+               </div>
+               <div class="team__member">
+                 <a href="#" target="_blank">
+                  <img src="static/images/logos/ppt_logo.png" alt="ppt logo">
+                  <div class="team__member-info">
+                     <h3 class="team__member-name team_doc_font" style="font-size: 90%; text-align:center;">Final Presentation (Pending)</h3>
+                  </div>
+                 </a>
+               </div>
+              </div>
             </div>
          </div>
       </section>
@@ -262,7 +396,7 @@
                <h2>Our Team</h2>
             </header>
             <div class="team" style="text-align:center;">
-               <div class="team__member">
+               <div class="team__member" style="-webkit-box-shadow: 2px 2px 4px -2px #111;box-shadow: 2px 2px 4px -2px #111;">
                   <img src="static/images/team/1.jpg">
                   <div class="team__member-info">
                      <h3 class="team__member-name">Prof.Pradeep</h3><h3 class="team__member-name" style="font-size: 140%;">Abeygunawardhana</h3>
@@ -270,7 +404,7 @@
 
                   </div>
                </div>
-               <div class="team__member">
+               <div class="team__member" style="-webkit-box-shadow: 2px 2px 4px -2px #111;box-shadow: 2px 2px 4px -2px #111;">
                   <img src="static/images/team/2.jpg">
                   <div class="team__member-info">
                      <h3 class="team__member-name">Ms.Sasini Nuwanthika</h3>
@@ -278,41 +412,41 @@
 
                   </div>
                </div>
-               <div class="team__member">
-                  <img src="static/images/team/3.jpg" alt="David Lynch">
+               <div class="team__member" style="-webkit-box-shadow: 2px 2px 4px -2px #111;box-shadow: 2px 2px 4px -2px #111;">
+                  <img src="static/images/team/3.jpg">
                   <div class="team__member-info">
                      <h3 class="team__member-name">Mr.Gamini <br>De Alwis</h3>
                      <p class="team__member-role">External–Supervisor</p>
-                     <p class="team__member-descr">Email:</p>
+
                   </div>
                </div>
 			   <br>
-               <div class="team__member">
-                  <img src="static/images/team/4.jpg" alt="Ann Hernandez">
+               <div class="team__member" style="-webkit-box-shadow: 2px 2px 4px -2px #111;box-shadow: 2px 2px 4px -2px #111;">
+                  <img src="static/images/team/4.jpg">
                   <div class="team__member-info">
                      <h3 class="team__member-name">Dasunpriya Kalhara</h3>
 
 
                   </div>
                </div>
-               <div class="team__member">
-                  <img src="static/images/team/5.jpg" alt="Arlene Barnett">
+               <div class="team__member" style="-webkit-box-shadow: 2px 2px 4px -2px #111;box-shadow: 2px 2px 4px -2px #111;">
+                  <img src="static/images/team/5.jpg">
                   <div class="team__member-info">
                      <h3 class="team__member-name">Udara <br>De Alwis</h3>
 
 
                   </div>
                </div>
-               <div class="team__member">
-                  <img src="static/images/team/6.jpg" alt="Bob Harvey">
+               <div class="team__member" style="-webkit-box-shadow: 2px 2px 4px -2px #111;box-shadow: 2px 2px 4px -2px #111;">
+                  <img src="static/images/team/6.jpg">
                   <div class="team__member-info">
                      <h3 class="team__member-name">Anuka Jinadasa</h3>
 
 
                   </div>
                </div>
-               <div class="team__member">
-                  <img src="static/images/team/7.jpg" alt="Lesa Morgan">
+               <div class="team__member" style="-webkit-box-shadow: 2px 2px 4px -2px #111;box-shadow: 2px 2px 4px -2px #111;">
+                  <img src="static/images/team/7.jpg">
                   <div class="team__member-info">
                      <h3 class="team__member-name">Dinuwan Randunu</h3>
                   </div>
@@ -363,7 +497,7 @@
             <section class="contact-card">
                <header class="contact-card__header">
                   <h2>Contact Information</h2>
-                  <h4>Mauris leo nisl, malesuada id faucibus non, gravida sit amet lectus</h4>
+
                </header>
                <div class="contact-info">
                   <div class="contact-info__logo">MA</div>
@@ -374,19 +508,17 @@
                         <p>Vivamus vel lacus tellus?</p>
                      </div>
                      <div class="contact-info__vcard vcard">
-                        <h4 class="fn org">Marketing Agency</h4>
-                        <p class="role title">Lorem ipsum dolor sit amet</p>
-                        <p class="icon icon_location"><a class="adr js-anchor" href="#gmap"><span class="country-name">CountryName</span>,&nbsp;<span class="locality">CityName</span>,&nbsp;<span class="address">Address</span></a></p>
+                        <h4 class="fn org">Security Plus</h4>
+                        <p class="role title">Send us your query anytime!</p>
+                        <p class="icon icon_location"><a class="adr js-anchor" href="#gmap"><span class="country-name">Sri Lanka</span>,&nbsp;<span class="locality">Malabe</span>,&nbsp;</a></p>
                         <p class="icon icon_mail"><a class="email" href="mailto:contact@example.com">contact@example.com</a></p>
                         <p class="icon icon_phone"><a class="email" href="tel:1111111111">111-111-11-11</a></p>
                      </div>
                      <ul class="contact-info__social">
                         <li><a class="icon icon_fb" rel="nofollow">I'm on Facebook</a></li>
                         <li><a class="icon icon_twi" rel="nofollow">My Twitter</a></li>
-                        <li><a class="icon icon_gplus" rel="nofollow">I'm on Google+</a></li>
-                        <li><a class="icon icon_vk" rel="nofollow">I'm in Vk</a></li>
                         <li><a class="icon icon_in" rel="nofollow">My Linkedin profile</a></li>
-                        <li><a class="icon icon_rss" rel="nofollow">RSS feed... maybe</a></li>
+
                      </ul>
                   </div>
                </div>
@@ -397,9 +529,9 @@
       <!-- Footer-->
       <footer class="main-footer">
          <div class="container">
-            <p class="main-footer__copyright">&copy;&nbsp;<span>Marketing Agency</span></p>
+            <p class="main-footer__copyright">&nbsp;<span> </span></p>
             <a class="main-footer__gotop icon icon_gotop js-anchor" href="#home">To top!</a>
-            <p class="main-footer__links">Designed by&nbsp;<a href="http://orlovmax.com">Maxim Orlov</a></p>
+            <p class="main-footer__links">&nbsp;<a href="#"> </a></p>
          </div>
       </footer>
       <script src="static/js/body.min.js"></script>
